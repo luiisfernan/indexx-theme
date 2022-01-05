@@ -1,0 +1,30 @@
+{
+    "name": "themeindexx",
+    "displayName": "themeIndexx",
+    "description": "theme for VSCode ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "icon": "icons/logo1.ico",
+    "categories": [
+        "Themes"
+    ],
+    "author": {
+        "name": "Luis Fernando",
+        "email": "luisfernan2497@outlook.com"
+    },
+    "repository": {
+        "url": "https://github.com/luiisfernan/indexx-theme.git"
+    },
+    "publisher": "Indexx-Theme",  
+    "contributes": {
+        "themes": [
+            {
+                "label": "themeIndexx",
+                "uiTheme": "vs-dark",
+                "path": "./themes/themeIndexx-color-theme.json"
+            }
+        ]
+    }
+}
